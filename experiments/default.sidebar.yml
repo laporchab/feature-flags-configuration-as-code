@@ -1,0 +1,11 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/<YOUR_EXPERIMENT_URL>
+type: experiment
+name: sidebar
+flag: default.sidebar
+enabled: true
+conditions:
+  - group:
+      name: BetaUsers
+    value: true
+value: false

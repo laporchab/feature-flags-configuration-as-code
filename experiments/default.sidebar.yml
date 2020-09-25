@@ -1,9 +1,7 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/<YOUR_EXPERIMENT_URL>
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: sidebar
 flag: default.sidebar
-enabled: true
 conditions:
   - group:
       name: BetaUsers
